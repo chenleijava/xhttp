@@ -3,7 +3,7 @@ package handler
 import (
     "github.com/zeromicro/go-zero/rest/httpx"
     "net/http"
-    "github.com/chenleijava/xhttp/render" //基于handler.tpl定制 模板定制 响应固定的结构数据,注意当前模板包名替换为当前工程
+    "github.com/chenleijava/xhttp/render"
     {{.ImportPackages}}
 )
 
