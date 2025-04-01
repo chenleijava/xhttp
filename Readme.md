@@ -1,9 +1,9 @@
-## 基于go-zero 模板定义统一返回消息，自定义模板
+## Define a unified return message based on the go-zero template, customize the template
 
-- 当前 goctl 生成工具版本是1.8.1
-- [go-zero 模板定制](https://go-zero.dev/docs/tutorials/customization/template)
-- 模板是基于goctl工具生成，对于api生成，会引用tpl/api/handler.tpl文件 
-- 详细修改如下：
+- the goctl tool version: 1.8.1
+- [go-zero Template customization](https://go-zero.dev/docs/tutorials/customization/template)
+- The template is generated based on the goctl tool. For api generation, the tpl/api/handler.tpl file is referenced
+- Detailed changes are as follows:
 
 ```text
 package handler
