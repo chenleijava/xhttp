@@ -1,4 +1,4 @@
-module xhttp
+module github.com/chenleijava/xhttp
 
 go 1.24
 
