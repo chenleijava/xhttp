@@ -1,5 +1,17 @@
 ## Define a unified return message based on the go-zero template, customize the template
 
+### Implement a unified body response in the following format:
+
+```json
+{
+  "code": 0,
+  "msg": "",
+  "data": {}
+}
+```
+
+---
+
 - the goctl tool version: 1.8.1
 - [go-zero Template customization](https://go-zero.dev/docs/tutorials/customization/template)
 - The template is generated based on the goctl tool. For api generation, the tpl/api/handler.tpl file is referenced
