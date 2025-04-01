@@ -3,7 +3,7 @@ package handler
 import (
     "github.com/zeromicro/go-zero/rest/httpx"
     "net/http"
-    "github.com/chenleijava/xhttp/render"
+    render "github.com/chenleijava/xhttp"
     {{.ImportPackages}}
 )
 
